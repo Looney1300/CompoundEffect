@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(236, 236, 236, 0.8);
+}
+
+#calculator {
+    margin-top: 10px;
+}
+
+.sticky-top {
+	top: 70px;
+}
+
+.bg-custom {
+    background-color: rgba(0,0,0,.8);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 5px;
+}
+
+.parameters {
+    margin: 10px;
+}
+
