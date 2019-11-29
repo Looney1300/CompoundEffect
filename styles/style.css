@@ -19,6 +19,14 @@ table {
     border-spacing: 20px 5px;
 }
 
+td {
+    text-align: right;
+}
+
+th {
+    text-align: center;
+}
+
 .parameters {
     margin: 10px;
 }

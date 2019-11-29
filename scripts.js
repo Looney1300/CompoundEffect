@@ -34,8 +34,8 @@ var pageStart = (function(){
         // Add final year after reaching goal.
         addRow(year);
         // Say how many years it will take.
-        document.getElementById('yearsToHitGoal').innerText = 
-            `It will take ${year} years to have $${money.moneyGoal} by starting with $${money.originalPrincipal} with ${(money.interestRate*100).toFixed(2)}% APY (compounding ${money.nCompounds}/yr) contributing $${money.addToBalance} every ${(365/money.addToFrequency).toFixed(2)} days.`;
+        document.getElementById('yearsToHitGoal').innerHTML = 
+            `It will take <b>${year}</b> years to have <b>$${money.moneyGoal}</b> by starting with <b>$${money.originalPrincipal}</b> with <b>${(money.interestRate*100).toFixed(2)}%</b> APY (compounding ${money.nCompounds}/yr) contributing <b>$${money.addToBalance}</b> every <b>${(365/money.addToFrequency).toFixed(2)}</b> days.`;
 
     }
 
